@@ -11,10 +11,10 @@ const BaseUrls = {
 
 export default class VulnLink extends Component {
     render() {
-        const type = this.props.type in Object.keys(BaseUrls) ? this.props.type : 'nvd';
+        const src = this.props.src in BaseUrls ? this.props.src : 'nvd';
         const child = this.props.children == undefined ? this.props.id : this.props.children;
         return (
-            <a className="vuln-link" href={BaseUrls[type] + this.props.id}>{child}</a>
+            <a className="vuln-link" href={BaseUrls[src] + this.props.id}>{child}</a>
         );
     }
 }
