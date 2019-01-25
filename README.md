@@ -15,12 +15,12 @@ npm install --save react-vulnlink
 ```jsx
 import React, { Component } from 'react'
 
-import MyComponent from 'react-vulnlink'
+import VulnLink from 'react-vulnlink'
 
 class Example extends Component {
   render () {
     return (
-      <MyComponent />
+      <VulnLink id="CVE-2018-16598" />
     )
   }
 }
