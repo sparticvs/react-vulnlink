@@ -1,6 +1,6 @@
 {
   "name": "react-vulnlink",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Link creator using standard vulnerability identifiers",
   "author": "sparticvs",
   "license": "MIT",
