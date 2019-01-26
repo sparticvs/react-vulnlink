@@ -6,7 +6,7 @@ import PropTypes from 'prop-types'
 
 const BaseUrls = {
     'nvd': 'https://nvd.nist.gov/vuln/detail/',
-    'mitre': 'http://cve.mitre.org/cgi-bin/cvename.cgi?name='
+    'mitre': 'https://cve.mitre.org/cgi-bin/cvename.cgi?name='
 };
 
 export default class VulnLink extends Component {
