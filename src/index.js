@@ -13,6 +13,10 @@ const BaseUrls = {
         'url': 'https://cve.mitre.org/cgi-bin/cvename.cgi?name=',
         'fmt': /CVE-[\d]{4}-[\d]{4,}/i
     },
+    'cvedetails': {
+        'url': 'https://www.cvedetails.com/cve/',
+        'fmt': /CVE-[\d]{4}-[\d]{4,}/i
+    },
     'redhat': {
         'url': 'https://access.redhat.com/errata/',
         'fmt': /RHSA-[\d]{4}:[\d]{4}/i
