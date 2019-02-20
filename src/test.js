@@ -4,7 +4,7 @@ import TestRenderer from 'react-test-renderer'
 
 const TEST_CVE = "CVE-2018-16598";
 const TEST_NVD = "https://nvd.nist.gov/vuln/detail/";
-const TEST_MITRE = "http://cve.mitre.org/cgi-bin/cvename.cgi?name=";
+const TEST_MITRE = "https://cve.mitre.org/cgi-bin/cvename.cgi?name=";
 
 describe('VulnLink', () => {
   it('is truthy', () => {
