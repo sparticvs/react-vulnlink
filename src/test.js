@@ -39,4 +39,10 @@ describe('VulnLink', () => {
     );
     expect(testRender.toJSON()).toEqual(expectedRender.toJSON());
   });
+  it('has RedHat URL failure with CVE ID', () => {
+    const testRender = TestRenderer.create(
+        <VulnLink src="redhat" id={TEST_CVE} />
+    );
+    expect(testRender.toJSON()).toBeNull();
+  });
 })
